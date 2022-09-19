@@ -1,0 +1,125 @@
+body {
+    background-color: beige;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+.brand img {
+    width: 35px;
+    padding: 0 8px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    min-height: 75vh;
+    background-color: black;
+    color: white;
+    display: flex;
+    width: 85%;
+    margin: 10px auto;
+    border-radius: 10px;
+    padding: 20px;
+    background-image: url('img.jpg');
+    background-size: 70%;
+    justify-content: center;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    background-color: black;
+    color: white;
+    height: 40px;
+}
+
+.brand {
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.1rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+nav ul li {
+    padding: 0 10px;
+}
+
+.bottom {
+    position: sticky;
+    height: 75px;
+    background-color: black;
+    color: white;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.icons {
+    margin: (8px 0 0 0);
+}
+
+.icons i {
+    cursor: pointer;
+    padding: 4px;
+    color: white;
+}
+
+
+#ProgressBar {
+    width: 80vw;
+    cursor: pointer;
+
+}
+
+.songItem {
+    height: 30px;
+    display: flex;
+    background-color:whitesmoke;
+    color: black;
+    margin: 10px 0;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 20px;
+    padding: 0 10px;
+}
+
+.songitemcontainer {
+    margin-top: 55px;
+}
+
+.songItem img {
+    height: 25px;
+    margin: 0 25px;
+    border-radius: 12px;
+}
+
+.timestamp {
+    margin: 0 10px;
+}
+
+.timestamp i {
+    cursor: pointer;
+}
+
+.songinfo {
+    margin-top: 20px;
+    display: flex;
+    position: absolute;
+    left: 10vw;
+}
+
+.songinfo img {
+    opacity: 0;
+    transition: opacity 0.4s ease-in;
+}
+
+.songinfo span {
+    margin-top: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
